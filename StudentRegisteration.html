@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            Student Registeration
+        </title>
+
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+       
+    </head>
+    
+    
+    <body>
+        
+        
+        <div id = "search-box"> 
+
+            <i class="fas fa-search" style='font-size:36px' id = 'messageIcon'></i>  
+            <p id ="head">Enter student name to search</p>
+            <input type="text" id = "search-content" required = "true">
+            <button onclick="search()">OK</button>
+    
+            </div>
+        </div>
+
+        <div id = "messageBox"> 
+
+        <i class='fas fa-comment-alt' id = 'messageIcon'style='font-size:36px'></i>   
+        <p id ="head">Message<p>
+        <p id = "message-content">vvbnvbnnnnvnvnvnvnmvnvnv</p>
+        <button onclick="closeMessage()">OK</button>
+
+        </div>
+        <div class = "heading">welcome to student registeration</div>
+        <div class = "add">
+            <i class="fa fa-plus-square" style="font-size:2em;color:#ffb366" onclick="addRow()"></i>
+        </div>
+        <div class = "save" id ="saveButton">
+            <i class="fas fa-save" style="font-size:2em;color:black" onclick="saveData()"></i>
+        </div>
+        <div class = "search" id ="saveButton">
+            <i class="fas fa-search" style='font-size:2em' onclick="showSearchBox()"></i>
+        </div>
+
+      
+        <table id="records">
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Roll No.</th>
+                <th>Percentage</th>
+                <th id="options-head"></th>
+                
+            </tr>
+          
+         </table>
+         
+         <script src = "UIScript.js"></script>
+    
+        </body>
+</html>
