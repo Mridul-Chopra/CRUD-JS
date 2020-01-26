@@ -149,7 +149,6 @@ tr:hover > #row-options
     transition-delay: 0.25s;
 
     clip-path: polygon(1% 100%, 100% 100%, 100% 14%, 54% 14%, 52% 0, 42% 14%, 0 14%);
-
 }
 
 #message-content{
@@ -157,7 +156,7 @@ tr:hover > #row-options
     width:18em;
     height:5em;
     margin-left:10em;
-        
+	margin-top:-1em;
 }
 
 
@@ -187,6 +186,10 @@ tr:hover > #row-options
     background-color: transparent;
     margin-left: 15em;
     margin-top: 1em;
+
+	text-align:center;
+
+
        
 }
 
@@ -197,7 +200,7 @@ tr:hover > #row-options
 }
 
 
-#search-box > button
+#search-box > button , #message-box > button
 {
     margin-left: 22em;
     margin-top: 7em;;
@@ -233,7 +236,7 @@ tr:hover > #row-options
     height:2em;
 
     margin-left: 20em;
-    margin-top:-3em;
+    margin-top:-1em;
 
     border : 1px solid black;
 }
